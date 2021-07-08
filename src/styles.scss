@@ -1,0 +1,53 @@
+/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+  font-family: "SVN-Gotham";
+  src: local("SVN-Gotham"), url("./assets/font/svn-gotham/SVN-Gotham Regular.otf") format('opentype');
+}
+
+@font-face {
+  font-family: "HeptaSlab-Light";
+  src: local("HeptaSlab-Light"), url("./assets/font/hepta-slab/HeptaSlab-Light.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: "HeptaSlab";
+  src: local("HeptaSlab"), url("./assets/font/hepta-slab/HeptaSlab-Medium.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: "HeptaSlab-Regular";
+  src: local("HeptaSlab-Regular"), url("./assets/font/hepta-slab/HeptaSlab-Regular.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: "HeptaSlab-SemiBold";
+  src: local("HeptaSlab-SemiBold"), url("assets/font/hepta-slab/HeptaSlab-SemiBold.ttf") format('truetype');
+}
+
+* {
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+html, body {
+  width: 100%;
+  margin: 0;
+  background: #FEFBF4 !important;
+  position: relative;
+  top: 0;
+}
+
+.slick-next:before {
+  content: url("./assets/img/nextArrow.svg") !important;
+}
+
+.slick-prev:before {
+  content: url("./assets/img/prevArrow.svg") !important;
+}
+
+input:focus-visible, select:focus-visible {
+  outline: none;
+}
+
+
